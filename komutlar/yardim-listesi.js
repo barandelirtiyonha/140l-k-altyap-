@@ -13,14 +13,14 @@ exports.run = (client, message, params) => {
     )
     .addField(
       "» Linkler",
-      `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=662355232591970321&scope=bot&permissions=805314622)` +
+      `[Bot Davet Linki](Yakında !)` +
         "**\n**" +
-        `[Bota Oyver](https://botsfordiscord.com/bot/650739604789395476/vote)` +
+        `[Bota Oyver](Yakında !)` +
         "**\n**" +
-        `[Destek Sunucusu](https://discord.gg/AHe4u4m)`,
+        `[Destek Sunucusu](https://discord.gg/Z2zuGCR)`,
       false
     )
-    .setFooter("iBOT | Yardım Komutları");
+    .setFooter("Mechanic Topluluk Sunucusu");
 
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
